@@ -1,0 +1,76 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: black;
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Faune Black",sans-serif,serif;
+    color: white;
+
+}
+.space1{
+    position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 500px;
+   flex-direction: column;
+   width: 25%;
+   height: 250vh;
+}
+.space1 .img1{
+    height: 400px;
+    width: 260px;
+    background: url("/img/casey-horner-7FHN1gFyf9I-unsplash.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+.space1 .img3{
+    height: 400px;
+    width: 260px;
+    background: url("/img/max-andrey-_myLM2zWQnc-unsplash.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    margin-bottom: -100px;
+}
+.space2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+   width:100%;
+    height:200vh;
+}
+.space2 h1{
+    width: 500px;
+    font-size: 40px;
+    margin: 200px 200px;
+    z-index: 9999;
+}
+
+.space3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 500px;
+   flex-direction: column;
+   height: 200vh;
+}
+.space3 .img2{
+    height: 400px;
+    width: 280px;
+    background: url("/img/roberto-nickson-Yp9FdEqaCdk-unsplash.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+.space3 .img4{
+    height: 400px;
+    width: 280px;
+    background: url("/img/christopher-sardegna-CMOa3H1SXG0-unsplash.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
